@@ -16,6 +16,7 @@ export function TaskForm() {
     description: '',
     priority: 'medium',
     categoryId: null,
+    projectId: null,
     tagIds: [],
     dueDate: null,
   });
@@ -29,6 +30,7 @@ export function TaskForm() {
         description: editingTask.description,
         priority: editingTask.priority,
         categoryId: editingTask.categoryId,
+        projectId: editingTask.projectId,
         tagIds: editingTask.tagIds,
         dueDate: editingTask.dueDate,
       });
@@ -38,6 +40,7 @@ export function TaskForm() {
         description: '',
         priority: 'medium',
         categoryId: null,
+        projectId: null,
         tagIds: [],
         dueDate: null,
       });

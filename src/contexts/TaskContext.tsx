@@ -559,6 +559,7 @@ export function TaskProvider({ children }: { children: ReactNode }) {
             status: 'pending',
             priority: templateTask.priority,
             categoryId,
+            projectId: null,
             tagIds: [],
             dueDate: null,
             createdAt: now,
